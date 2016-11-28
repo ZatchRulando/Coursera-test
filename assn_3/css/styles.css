@@ -39,49 +39,6 @@ section {
 	overflow: auto;
 }
 
-#chicken {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: orange;
-}
-
-#beef {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: green;
-}
-
-#sushi {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	background-color: blue;
-	color: white;
-	padding: 5px;
-}
-
 #chicken-div {
   margin-bottom: 10px;
   margin-top: 10px;
@@ -97,6 +54,45 @@ section {
   margin-top: 10px;
 }
 
+#chicken {
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: black;
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	color: white;
+}
+
+#beef {
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: green;
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+}
+
+#sushi {
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: black;
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	color: white;
+}
+
+
 .navbar-brand {
   font-size: 2em;
   border: 0 0 10px 10px;
@@ -109,32 +105,18 @@ section {
   color: white;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
 
-.nav-header {
-  background-color: #FFFFFF;
-}
 
 .nav-brand {
   color: #FFFFFF;
   font-size: 1.5em;
 }
 
-#nav-list {
-  color: white;
-}
-
-hr {
-  border-color: white;
-}
 
 .item {
   color: white;
-  font-size: 1.2em;
 }
