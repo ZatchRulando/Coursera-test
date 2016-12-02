@@ -10,7 +10,9 @@ var speakWord = "Hello";
 helloSpeaker.speak = function (name) { 	//attach speak method to hellospeaker
   console.log(speakWord + " " + name);//rewrite speak method. now attached to helloSpeaker, not standalone
 }
+
 	window.helloSpeaker = helloSpeaker; // expose helloSpeaker to global scope
+	
 })(window);
 
 //IIFE
